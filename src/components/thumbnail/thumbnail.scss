@@ -1,3 +1,14 @@
 thumbnail {
+    .column-content {
+        display: inline-block;
+    }
+    
+    img {
+        vertical-align: middle;
+    }
 
+    span {
+        display: inline-block;
+        vertical-align: middle;
+    }
 }

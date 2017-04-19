@@ -6,7 +6,7 @@
     </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
 
     <thumbnail *ngFor="let pic of pictures.photos.photo" [pic]="pic" (click)="onClickDetails(pic)">
     </thumbnail>
