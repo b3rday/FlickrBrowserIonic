@@ -1,0 +1,14 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            FlickrBrowserIonic
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <thumbnail *ngFor="let pic of pictures.photos.photo" [pic]="pic" (click)="onClickDetails(pic)">
+    </thumbnail>
+
+</ion-content>
